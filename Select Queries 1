@@ -1,0 +1,56 @@
+Table Name : Movies
+
+Id	 Title   	          Director	        Year	        Length_minutes
+1	   Toy Story	        John Lasseter	    1995	        81
+2	   A Bug's Life  	    John Lasseter	    1998	        95
+3	   Toy Story 2	      John Lasseter   	1999	        93
+4	   Monsters, Inc.	    Pete Docter	      2001	        92
+5	   Finding Nemo     	Andrew Stanton	  2003	        107
+6	   The Incredibles	  Brad Bird	        2004	        116
+7	   Cars	              John Lasseter	    2006	        117
+8	   Ratatouille	      Brad Bird       	2007	        115
+9	   WALL-E	            Andrew Stanton	  2008	        104
+10	 Up	                Pete Docter	      2009	        101
+
+
+
+
+Question 1:
+Find the title of each film
+SQL: 
+SELECT TITLE
+FROM MOVIES;
+
+
+
+
+Question 2:
+Find the director of each film
+SQL:
+SELECT DIRECTOR
+FROM MOVIES;
+
+
+
+Question 3:
+Find the title and director of each film
+SQL:
+SELECT TITLE, DIRECTOR
+FROM MOVIES;
+
+
+
+
+Question 4:
+Find the title and year of each film
+SQL:
+SELECT TITLE, YEAR
+FROM MOVIES;
+
+
+
+Question 5:
+Find all the information about each film 
+SQL :
+SELECT *
+FROM MOVIES;
